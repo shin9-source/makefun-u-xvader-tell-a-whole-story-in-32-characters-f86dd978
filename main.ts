@@ -5,7 +5,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
-const ENTRY = "Divorced, But Still On His WiFi";
+const ENTRY = "Dad left everything to the cat.";
 
 const outPath = process.env.ENTRY_OUT ?? "/output/entry.txt";
 
